@@ -1,0 +1,21 @@
+{
+  "name": "scraper-api",
+  "version": "1.0.0",
+  "description": "API self-hosted para scraping de webs y generación de prompts",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.7",
+    "fastify": "^5.2.1",
+    "playwright": "^1.50.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "type": "module"
+}
